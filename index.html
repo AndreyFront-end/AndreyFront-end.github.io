@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/normalize.css" />
+    <link rel="stylesheet" href="dist/css/animate.min.css" />
+    <link rel="stylesheet" href="dist/css/fotorama.css">
+    <link rel="stylesheet" href="dist/css/media.min.css">
+    <link rel="stylesheet" href="dist/css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
+    <div class="overlay">
+      <div class="overlay-figure">
+        <p class="email">AndreySev.fl.18@yandex.ru</p>
+      </div>
+      <nav class="overlay-Menu">
+        <ul role="menu">
+          <li class="li-click"><a href="#home" role="menuitem">Главная</a></li>
+          <li class="li-click">
+            <a href="#about-me" role="menuitem">Обо мне</a>
+          </li>
+          <li class="li-click">
+            <a href="#my-works" role="menuitem">Мои работы</a>
+          </li>
+          <li class="li-click">
+            <a href="#my-contact" role="menuitem">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header>
+      <div class="parallax">
+        <div
+          class="header parallax-window"
+          data-parallax="scroll"
+          data-speed="0.5"
+          data-bleed="100"
+          data-natural-height="1200"
+          data-natural-width="1920"
+          data-image-src="dist/img/sunset-1373171_1920.jpg"
+          id="home"
+        >
+          <div class="header__top">
+            <div class="header__icon-block wow fadeInLeftBig">
+              <a href="https://vk.com/andrey__sev" target="_blank"
+                ><i class="fab fa-vk header__ico"></i
+              ></a>
+              <a href="https://www.instagram.com/andrey__sev/" target="_blank"
+                ><i
+                  class="fab fa-instagram header__ico header__ico_margin-left"
+                ></i
+              ></a>
+            </div>
+            <div class="header__icon-menu wow fadeInRightBig">
+              <div class="menu-icon">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+          </div>
+          <div class="header__center wow fadeIn">
+            <div class="header__image-block">
+              <img src="dist/img/i.png" alt="" class="header__image" />
+            </div>
+            <div class="header__name-block">
+              <h1 class="header__name">Севостьянов Андрей</h1>
+            </div>
+            <div class="header__description-block">
+              <h2 class="header__description">front-end developer</h2>
+            </div>
+          </div>
+          <div class="header__bottom">
+            <a href="#about-me" style="z-index: 2;"
+              ><i class="fas fa-angle-down header__ico-down"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="about-me" id="about-me">
+          <div class="modal-window-block">
+            <div class="modal-window">
+              <div class="close-block">
+                <i class="fas fa-times close"></i>
+              </div>
+              <div class="full-stack-block">
+                <div class="full-stack-title-block">
+                  <h2 class="full-stack-title">Full stack</h2>
+                </div>
+                <div class="full-stack__text">
+                  <ul class="full-stack__ul">
+                    <li class="full-stack__li">
+                      Css: Less, Scss, Media query, Cross-browser
+                    </li>
+                    <li class="full-stack__li">Html: Бэм, Html5 тэги</li>
+                    <li class="full-stack__li">JavaScript: Jquery</li>
+                    <li class="full-stack__li">Сборщик проектов Gulp</li>
+                    <li class="full-stack__li"></li>
+                    <li class="full-stack__li"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="title-block">
+            <h1 class="title wow fadeInUp">Обо мне</h1>
+          </div>
+          <div class="content">
+            <div class="who-am-i who-am-i_media-text wow fadeInLeft">
+              <h2 class="who-am-i__title-i">Кто я</h2>
+              <div class="who-am-i__text-block">
+                <p class="who-am-i__text">
+                  Меня зовут Андрей, и я являюсь верстальщиком сайтов из
+                  Краснодара c 2017 года.
+                  <br /><br />
+                  Выполняю адаптивную верстку одностраничных сайтов и лендингов.
+                  Использую препроцессоры less и scss. Неплохо владею jQuery и
+                  немного знаю vue.js.
+                  <br /><br />
+                  В верстке стремлюсь к самодокументируемому и понятному коду.
+                  Для сборки проекта использую Gulp.
+                </p>
+                <div class="button-block">
+                  <button class="button button_menu">Full stack</button>
+                </div>
+              </div>
+            </div>
+            <div class="who-am-i who-am-i_media-figure wow fadeInRight">
+              <div class="who-am-i__figure">
+                <div class="who-am-i__icon-block">
+                  <a href="https://vk.com/andrey__sev" target="_blank"
+                    ><i class="fab fa-vk who-am-i__ico"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/andrey__sev/"
+                    target="_blank"
+                    ><i
+                      class="fab fa-instagram who-am-i__ico who-am-i__ico_margin-left"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="my-works" id="my-works">
+          <div class="title-block title-block_media">
+            <h1 class="title wow fadeInUp">Мои работы</h1>
+          </div>
+          <div class="content">
+            <div class="my-works__wrapper my-works__wrapper_display-none">
+              <div class="my-works__wrapper-block wow fadeInUp">
+                <a href="Fabrika Rosta/index.html" class="my-works__block">
+                  <div class="my-works__wrapper-img">
+                    <img
+                      src="dist/img/3705058.png"
+                      alt=""
+                      class="my-works__img"
+                    />
+                  </div>
+                  <div class="my-works__wrapper-arrow">
+                    <i class="fas fa-long-arrow-alt-right my-works__arrow"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="my-works__wrapper-block wow fadeInUp">
+                <a href="" class="my-works__block">
+                  <div class="my-works__wrapper-img">
+                    <img
+                      src="dist/img/3704556.png"
+                      alt=""
+                      class="my-works__img"
+                    />
+                  </div>
+                  <div class="my-works__wrapper-arrow">
+                    <i class="fas fa-long-arrow-alt-right my-works__arrow"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="my-works__wrapper-block wow fadeInUp">
+                <a href="" class="my-works__block">
+                  <div class="my-works__wrapper-img">
+                    <img
+                      src="dist/img/3704564.png"
+                      alt=""
+                      class="my-works__img"
+                    />
+                  </div>
+                  <div class="my-works__wrapper-arrow">
+                    <i class="fas fa-long-arrow-alt-right my-works__arrow"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- MOBILE SLIDER -->
+            <div class="my-works__wrapper my-works__wrapper_media">
+              <div class="fotorama" 
+                  data-width="100%"
+                  data-height="350px"
+                  >
+                  <div class="my-works__wrapper-block">
+                    <a href="Fabrika Rosta/index.html" class="my-works__block">
+                      <div class="my-works__wrapper-img">
+                        <img
+                          src="dist/img/3704564.png"
+                          alt=""
+                          class="my-works__img"
+                        />
+                      </div>
+                      <div class="my-works__wrapper-arrow">
+                        <i class="fas fa-long-arrow-alt-right my-works__arrow"></i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="my-works__wrapper-block">
+                    <a href="" class="my-works__block">
+                      <div class="my-works__wrapper-img">
+                        <img
+                          src="dist/img/3704564.png"
+                          alt=""
+                          class="my-works__img"
+                        />
+                      </div>
+                      <div class="my-works__wrapper-arrow">
+                        <i class="fas fa-long-arrow-alt-right my-works__arrow"></i>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+            </div>
+             <!-- MOBILE SLIDER -->
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="my-contact" id="my-contact">
+          <div class="title-block">
+            <h1 class="title wow fadeInUp">Написать мне</h1>
+          </div>
+          <div class="content">
+            <div class="my-contact__wrapper">
+              <div class="my-contact__block">
+                <form action="" class="form wow fadeIn">
+                  <input placeholder="ФИО" type="text" class="input" required />
+                  <input
+                    placeholder="Email"
+                    type="email"
+                    class="input margin-top"
+                    required
+                  />
+                  <textarea
+                    placeholder="Сообщение"
+                    name=""
+                    id=""
+                    class="textarea margin-top"
+                  ></textarea>
+                  <div class="button-block">
+                    <button class="button button_form">Отправить</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <p class="copy wow fadeInUp">&copy; Андрей Севостьянов</p>
+      </div>
+    </footer>
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/all.min.js"></script>
+    <script src="dist/js/wow.min.js"></script>
+    <script src="dist/js/parallax.min.js"></script>
+    <script src="dist/js/fotorama.js"></script>
+    <script src="dist/js/index.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        new WOW().init();
+      });
+    </script>
+  </body>
+</html>
